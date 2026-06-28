@@ -99,7 +99,7 @@ def validate_employee(emp):
 
     phone = validate_phone(emp.get("Phone", ""))
     if emp.get("Phone") and phone is None:
-        errors.append("Invalid Phone")
+        errors.append("Invalid Phone.")
     else:
         emp["Phone"] = phone
 
