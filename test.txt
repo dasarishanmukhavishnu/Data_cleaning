@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 hello
+=======
+This is a test branch file
+this merge conflict example
+>>>>>>> branch
